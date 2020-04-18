@@ -1,0 +1,13 @@
+C:\Users\vitor\Desktop\BraveInject\BraveInject\bin\Debug\netcoreapp3.1\BraveInject.exe
+C:\Users\vitor\Desktop\BraveInject\BraveInject\bin\Debug\netcoreapp3.1\BraveInject.deps.json
+C:\Users\vitor\Desktop\BraveInject\BraveInject\bin\Debug\netcoreapp3.1\BraveInject.runtimeconfig.json
+C:\Users\vitor\Desktop\BraveInject\BraveInject\bin\Debug\netcoreapp3.1\BraveInject.runtimeconfig.dev.json
+C:\Users\vitor\Desktop\BraveInject\BraveInject\bin\Debug\netcoreapp3.1\BraveInject.dll
+C:\Users\vitor\Desktop\BraveInject\BraveInject\bin\Debug\netcoreapp3.1\BraveInject.pdb
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.csprojAssemblyReference.cache
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.AssemblyInfoInputs.cache
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.AssemblyInfo.cs
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.dll
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.pdb
+C:\Users\vitor\Desktop\BraveInject\BraveInject\obj\Debug\netcoreapp3.1\BraveInject.genruntimeconfig.cache
