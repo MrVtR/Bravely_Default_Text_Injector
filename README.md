@@ -5,5 +5,9 @@ Source do Kuriimu com a biblioteca usada: https://github.com/FanTranslatorsInter
 ## Comando para uso do programa: 
   ### BraveInject NameOfTheFile.Extension -x, sendo o nome e extensão do arquivo decidido pelo usuário.
   ### Caso o nome do arquivo não seja identificado no Desktop do usuário,será criado um novo arquivo, caso seja encontrado um arquivo já existente,os novos dados de texto fornecidos pelo usuário serão apenas somados no fim do arquivo com o nome fornecido.
-  
-![Alt text](/Imagens/BD_Logo.jpg?raw=true "Bravely Default Logo")
+  <p align="center">
+  <img src="Imagens/BD_Logo.jpg">
+</p>
+
+
+
