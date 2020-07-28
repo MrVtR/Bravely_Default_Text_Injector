@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Immutable;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -52,12 +53,33 @@ namespace ConsoleApp1
                         {
                             if (lines[j] != "{END}")//Verifica se chegou ao fim de uma sub-string do arquivo
                             {
-                                if (lines[j].Contains("/0A"))
+                                int cont = j;
+                                if(cont+1>lines.Length)
                                 {
-                                    lines[j] = lines[j].Replace("/0A", "\n");
+                                    if (lines[j].Contains("/0A"))
+                                    {
+                                        lines[j] = lines[j].Replace("/0A", "\n");
+                                    }
+                                    BravelyFile.WriteString(lines[j] + '\0', Encoding.Unicode, false, false);//Comando para colocar o texto no arquivo e com byte 00 a cada letra,com \n ao fim da string
+                                    Console.WriteLine("passou");
+                                    return;
                                 }
-
-                                BravelyFile.WriteString(lines[j] + '\0', Encoding.Unicode, false, false);//Comando para colocar o texto no arquivo e com byte 00 a cada letra,com \n ao fim da string
+                                else if (lines[cont]!="" && cont+1<=lines.Length)//Verifica se a próxima linha tem textos,se tiver,quer dizer que é necessário quebra de linha
+                                {
+                                    if (lines[j].Contains("/0A"))
+                                    {
+                                        lines[j] = lines[j].Replace("/0A", "\n");
+                                    }
+                                    BravelyFile.WriteString(lines[j] + '\n', Encoding.Unicode, false, false);//Comando para colocar o texto no arquivo e com byte 00 a cada letra,com \n ao fim da string
+                                }
+                                else
+                                {
+                                    if (lines[j].Contains("/0A"))
+                                    {
+                                        lines[j] = lines[j].Replace("/0A", "\n");
+                                    }
+                                    BravelyFile.WriteString(lines[j] + '\0', Encoding.Unicode, false, false);//Comando para colocar o texto no arquivo e com byte 00 a cada letra,com \n ao fim da string
+                                }                                                             
                             }
                             else
                                 continue;
