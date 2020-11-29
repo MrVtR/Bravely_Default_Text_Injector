@@ -34,8 +34,8 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ComoUtilizarAInjeçãoDeTextos = new System.Windows.Forms.ToolStripMenuItem();
+            this.ComoFiltrarOsPonteirosCorrompidos = new System.Windows.Forms.ToolStripMenuItem();
             this.repositórioDoCódigoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contatoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -81,25 +81,25 @@
             // ajudaToolStripMenuItem
             // 
             this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem,
-            this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem});
+            this.ComoUtilizarAInjeçãoDeTextos,
+            this.ComoFiltrarOsPonteirosCorrompidos});
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
             this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
             // 
-            // comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem
+            // ComoUtilizarAInjeçãoDeTextos
             // 
-            this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem.Name = "comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem";
-            this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem.Size = new System.Drawing.Size(315, 24);
-            this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem.Text = "Como utilizar a edição do Crowd.fs";
-            this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem.Click += new System.EventHandler(this.comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem_Click);
+            this.ComoUtilizarAInjeçãoDeTextos.Name = "ComoUtilizarAInjeçãoDeTextos";
+            this.ComoUtilizarAInjeçãoDeTextos.Size = new System.Drawing.Size(343, 24);
+            this.ComoUtilizarAInjeçãoDeTextos.Text = "Como utilizar a Injeção de Textos";
+            this.ComoUtilizarAInjeçãoDeTextos.Click += new System.EventHandler(this.ComoUtilizarAInjeçãoDeTextos_Click);
             // 
-            // comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem
+            // ComoFiltrarOsPonteirosCorrompidos
             // 
-            this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem.Name = "comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem";
-            this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem.Size = new System.Drawing.Size(315, 24);
-            this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem.Text = "Como utilizar a edição do Index.fs";
-            this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem.Click += new System.EventHandler(this.comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem_Click);
+            this.ComoFiltrarOsPonteirosCorrompidos.Name = "ComoFiltrarOsPonteirosCorrompidos";
+            this.ComoFiltrarOsPonteirosCorrompidos.Size = new System.Drawing.Size(343, 24);
+            this.ComoFiltrarOsPonteirosCorrompidos.Text = "Como Filtrar os Ponteiros Corrompidos";
+            this.ComoFiltrarOsPonteirosCorrompidos.Click += new System.EventHandler(this.ComoFiltrarOsPonteirosCorrompidos_Click);
             // 
             // repositórioDoCódigoToolStripMenuItem
             // 
@@ -151,8 +151,8 @@
         private System.Windows.Forms.ToolStripMenuItem contatoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem repositórioDoCódigoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ComoUtilizarAInjeçãoDeTextos;
+        private System.Windows.Forms.ToolStripMenuItem ComoFiltrarOsPonteirosCorrompidos;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }

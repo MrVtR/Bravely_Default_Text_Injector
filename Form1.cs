@@ -34,15 +34,6 @@ namespace Bravely_Default_Text_Injector
             Process.Start(sInfo);
         }
 
-        private void comoUtilizarAEdiçãoDoCrowdfsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Tutorial:", "Tutorial de uso da edição do Crowd.fs", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-        private void comoUtilizarAEdiçãoDoIndexfsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Tutorial:", "Tutorial de uso da edição do Index.fs", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
         private void btnTexto_Click(object sender, EventArgs e)
         {
             openFileDialog1.Title = "Selecione o arquivo de texto com o formato de output do Kruptar7";
@@ -171,6 +162,37 @@ namespace Bravely_Default_Text_Injector
                 }
                 
             }
+        }
+
+        private void ComoFiltrarOsPonteirosCorrompidos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+               "Tutorial:\n\n" +
+               "Escolha o arquivo de texto para ter seus ponteiros filtrados:\n\n" +
+
+               "Os ponteiros com textos corrompidos iniciam com o texto \\00\\00\n\n" +
+               "O arquivo de texto precisará ter as seguintes configurações:\n\n" +
+               "Textos com mais de uma linha: Quebras de linha separadas por Enter\n" +
+               "Entre o final de um texto e o ínicio de outro é obrigatório ter uma string \"{END}\", para que seja identificado quando um texto acaba e outro começa\n\n" +
+
+               "Ao final, será retornado no console de debug as posições de onde estão os ponteiros corrompidos, para serem filtrados no programa\n",
+               "Tutorial de uso da edição do Crowd.fs\n",
+               MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void ComoUtilizarAInjeçãoDeTextos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                "Tutorial:\n\n" +
+                "Escolha o arquivo de texto para ser injetado em um arquivo Binário Unicode e escolha o nome+extensão do novo arquivo:\n\n" +
+
+                "O arquivo de texto precisará ter as seguintes configurações:\n\n" +
+                "Textos com mais de uma linha:\nQuebras de linha separadas por Enter\n" +
+                "Entre o final de um texto e o ínicio de outro é obrigatório ter uma linha vazia, para que seja identificado quando um texto acaba e outro começa\n\n" +
+
+                "Ao final, será criado o arquivo binário com o texto em formato Unicode, ou seja, a cada letra,existirá um byte 00 em seguida",
+                "Tutorial de uso da edição do Crowd.fs\n",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
