@@ -31,7 +31,7 @@ Para Debug do programa, foi criado a exibição de um Console para que o usuári
 
 ---
 
-![Imagem](https://github.com/MrVtR/Bravely_Default_Text_Injector/blob/master/Imagens/textFuntion.PNG)
+![Imagem](https://github.com/MrVtR/Bravely_Default_Text_Injector/blob/master/Imagens/ponteirosFunction.PNG)
 
 
 
