@@ -1,8 +1,8 @@
 # Bravely_Default_Text_Injector
 
 ## Conceito do projeto
-### A aplicação permite Injetar os textos modificados e filtrar os ponteiros dos arquivos do jogo Bravely 
-O programa feito permite criar um arquivo binário em codificação UTF-16 com os textos fornecidos pelo usuário (tendo o texto \n em seu formato ou não) para serem inseridos no jogo Bravely Default do console Nintendo 3ds,dessa forma,permitindo que a tradução do jogo de Inglês para Português Brasileiro seja feita de forma automatizada durante a fase de Romhacking do jogo. Também está incluso uma função de filtragem de ponteiros corrompidos(ponteiros que são desnecessários para o jogo rodar normalmente), dessa forma, é possível otimizar o processo de tradução com o aplicativo Kruptar7.
+### A aplicação permite injetar os textos modificados e filtrar os ponteiros dos arquivos do jogo Bravely 
+O programa feito permite criar um arquivo binário em codificação UTF-16 com os textos fornecidos pelo usuário (tendo o texto \n em seu formato ou não) para serem inseridos no jogo Bravely Default do console Nintendo 3ds, dessa forma, permitindo que a tradução do jogo de Inglês para Português Brasileiro seja feita de forma automatizada durante a fase de Romhacking do jogo. Também está incluso uma função de filtragem de ponteiros corrompidos (ponteiros que são desnecessários para o jogo rodar normalmente), dessa forma, é possível otimizar o processo de tradução com o aplicativo Kruptar7.
 
 ## Pré-requisitos e recursos utilizados
 Programa feito em C# com a Biblioteca Komponent (Para fins de uso do comando BinaryWriter customizado) do programa Kuriimu2.<br/>
